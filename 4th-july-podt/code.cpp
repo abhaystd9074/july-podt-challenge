@@ -16,6 +16,7 @@ using namespace std;
             j++;
         }
         ans += (i - j + 1);
+        i++;
     }
     if (ans > 0)
         return ans;
